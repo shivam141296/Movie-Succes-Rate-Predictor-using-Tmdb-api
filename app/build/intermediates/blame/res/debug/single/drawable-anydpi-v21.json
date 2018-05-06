@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\61e5e9d9e4b644eaf65f87bbaf8244f8\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\61e5e9d9e4b644eaf65f87bbaf8244f8\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
+    }
+]

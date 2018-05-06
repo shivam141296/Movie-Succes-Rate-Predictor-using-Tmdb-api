@@ -1,0 +1,4 @@
+#Sun May 06 12:54:10 IST 2018
+base.0=C\:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\7
+renamed.0=classes.dex
+file.0=C\:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\7\\classes.dex

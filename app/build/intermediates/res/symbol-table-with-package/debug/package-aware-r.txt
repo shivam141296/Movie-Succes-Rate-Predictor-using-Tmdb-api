@@ -1155,11 +1155,12 @@ int string pref_highest_rated 0x7f0e002c
 int string pref_most_popular 0x7f0e002d
 int string pref_sort_label 0x7f0e002e
 int string pref_sort_order_key 0x7f0e002f
-int string rating 0x7f0e0030
-int string release 0x7f0e0031
-int string search_menu_title 0x7f0e0032
-int string status_bar_notification_info_overflow 0x7f0e0033
-int string trailer 0x7f0e0034
+int string pref_upcoming 0x7f0e0030
+int string rating 0x7f0e0031
+int string release 0x7f0e0032
+int string search_menu_title 0x7f0e0033
+int string status_bar_notification_info_overflow 0x7f0e0034
+int string trailer 0x7f0e0035
 int style AlertDialog_AppCompat 0x7f0f0000
 int style AlertDialog_AppCompat_Light 0x7f0f0001
 int style Animation_AppCompat_Dialog 0x7f0f0002

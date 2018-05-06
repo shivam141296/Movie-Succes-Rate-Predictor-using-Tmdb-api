@@ -159,6 +159,43 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
             Toast.makeText(this,e.toString(),Toast.LENGTH_LONG).show();
         }
     }
+    private void loadJSON2()
+    {
+        try {
+            if(BuildConfig.THE_MOVIE_DB_API_TOKEN.isEmpty()){
+                Toast.makeText(getApplicationContext(),"Please Obtain Api Key",Toast.LENGTH_SHORT).show();
+                pd.dismiss();
+                return;
+            }
+            Client client = new Client();
+            Service apiService = client.getClient().create(Service.class);
+            Call<MoviesResponse>call = apiService.getUpcomingMovies(BuildConfig.THE_MOVIE_DB_API_TOKEN);
+            call.enqueue(new Callback<MoviesResponse>() {
+                @Override
+                public void onResponse(Call<MoviesResponse> call, Response<MoviesResponse> response) {
+
+                    List<Movie> movies = response.body().getResults();
+                    recyclerView.setAdapter(new MoviesAdapter(getApplicationContext(),movies));
+                    recyclerView.smoothScrollToPosition(0);
+                    if(swipeContainer.isRefreshing()){
+                        swipeContainer.setRefreshing(false);
+                    }
+                    pd.dismiss();
+                }
+
+                @Override
+                public void onFailure(retrofit2.Call<MoviesResponse> call, Throwable t) {
+                    Log.d("Error",t.getMessage());
+                    Toast.makeText(getApplicationContext(),"Error Fetching Data",Toast.LENGTH_LONG).show();
+                }
+            });
+        }
+        catch (Exception e){
+            Log.d("Error",e.getMessage());
+            Toast.makeText(this,e.toString(),Toast.LENGTH_LONG).show();
+        }
+    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu){
         getMenuInflater().inflate(R.menu.menu_main,menu);
@@ -186,14 +223,19 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
         String sortOrder = preferences.getString(
                 this.getString(R.string.pref_sort_order_key),
                 this.getString(R.string.pref_most_popular)
+
         );
         if(sortOrder.equals(this.getString(R.string.pref_most_popular))){
             Log.d(LOG_TAG,"Sorting by most popular");
             loadJSON();
         }
-        else{
+        else if(sortOrder.equals(this.getString(R.string.pref_highest_rated))){
             Log.d(LOG_TAG,"Sorting by most rated");
             loadJSON1();
+        }
+        else{
+            Log.d(LOG_TAG,"Sorting by upcoming movies");
+            loadJSON2();
         }
     }
 

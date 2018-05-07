@@ -35,9 +35,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity
-            android:name="com.example.android.moviesapi.SettingsActivity"
-            android:label="Settings" />
+        <activity android:name="com.example.android.moviesapi.movieprediction" />
 
         <meta-data
             android:name="android.support.VERSION"

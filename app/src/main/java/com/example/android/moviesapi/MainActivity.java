@@ -204,10 +204,21 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
     @Override
     public boolean onOptionsItemSelected(MenuItem item){
         switch (item.getItemId()){
-            case R.id.menu_settings:
-                Intent intent = new Intent(this,SettingsActivity.class);
-                startActivity(intent);
+            case R.id.sp:
+                Log.d(LOG_TAG,"Sorting by most popular");
+                loadJSON1();
                 return true;
+            case R.id.sr:
+                Log.d(LOG_TAG,"Sorting by most rated");
+                loadJSON();
+                return true;
+            case R.id.up:
+                Log.d(LOG_TAG,"Sorting by upcoming movies");
+                loadJSON2();
+                return true;
+            case R.id.pred:
+                Intent i =new Intent(this,movieprediction.class);
+                startActivity(i);
             default:
                 return super.onOptionsItemSelected(item);
         }
@@ -215,7 +226,7 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
     @Override
     public void onSharedPreferenceChanged(SharedPreferences sharedPreferences,String s){
         Log.d(LOG_TAG,"Preferences Updated");
-        checkSortOrder();
+       // checkSortOrder();
     }
 
     private void checkSortOrder(){
@@ -243,7 +254,8 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
     public void onResume(){
         super.onResume();
         if(movieList.isEmpty()){
-            checkSortOrder();
+           // checkSortOrder();
+            loadJSON();
         }
         else {
 

@@ -2,8 +2,23 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/menu_settings"
-        android:title="@string/action_settings"
+        android:id="@+id/sp"
+        android:title="Sort by Popularity"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sr"
+        android:title="Sort by Rating"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/up"
+        android:title="Upcoming Movies"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/pred"
+        android:title="Predict for your movie"
         android:orderInCategory="100"
         app:showAsAction="never" />
 

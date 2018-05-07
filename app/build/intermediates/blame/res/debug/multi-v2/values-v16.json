@@ -35,6 +35,40 @@
             ]
         },
         {
+            "outputFile": "C:\\Users\\SHRIYA JUNEJA\\Desktop\\minor2\\Moviesapi\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\SHRIYA JUNEJA\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\16fed4275d0d3f00d470a32d7d7dcc8a\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SHRIYA JUNEJA\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\3798cd35f402aa0d4aca143a3a23b71b\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\values-v16\\values-v16.xml",
             "map": [
                 {

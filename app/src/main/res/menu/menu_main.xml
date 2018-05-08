@@ -3,7 +3,27 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/menu_settings"
-        android:title="@string/action_settings"
+        android:title="Sorting by popularity"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_rating"
+        android:title="Sorting by Highest Rated"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_upcoming"
+        android:title="Sorting by Upcoming"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_favorite"
+        android:title="Sorting by Favorite"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_yourprediction"
+        android:title="Your Own Prediction"
         android:orderInCategory="100"
         app:showAsAction="never" />
 

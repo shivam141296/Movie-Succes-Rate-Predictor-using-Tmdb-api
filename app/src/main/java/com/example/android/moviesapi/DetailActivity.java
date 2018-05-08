@@ -20,6 +20,8 @@ import com.bumptech.glide.Glide;
 import com.example.android.moviesapi.adapter.TrailerAdapter;
 import com.example.android.moviesapi.api.Client;
 import com.example.android.moviesapi.api.Service;
+import com.example.android.moviesapi.data.FavoriteDbHelper;
+import com.example.android.moviesapi.model.Movie;
 import com.example.android.moviesapi.model.Trailer;
 import com.example.android.moviesapi.model.TrailerResponse;
 import com.github.ivbaranov.mfb.MaterialFavoriteButton;
@@ -41,6 +43,10 @@ public class DetailActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
     private TrailerAdapter adapter;
     private List<Trailer> trailerList;
+    private FavoriteDbHelper favoriteDbHelper;
+    private Movie favorite;
+    private final AppCompatActivity activity = DetailActivity.this;
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -66,6 +72,8 @@ public class DetailActivity extends AppCompatActivity {
             String rating = getIntent().getExtras().getString("vote_average");
             String dateOfRelease = getIntent().getExtras().getString("release_date");
 
+            String poster = "http://image.tmdb.org/t/p/w500" + thumbnail;
+
             Glide.with(this)
                     .load(thumbnail)
                     .placeholder(R.drawable.load)
@@ -79,7 +87,7 @@ public class DetailActivity extends AppCompatActivity {
 
         }
 
-        MaterialFavoriteButton materialFavoriteButton = (MaterialFavoriteButton)findViewById(R.id.favorite_button);
+        MaterialFavoriteButton materialFavoriteButton = (MaterialFavoriteButton)findViewById(R.id.favourite_button);
         SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
         materialFavoriteButton.setOnFavoriteChangeListener(new MaterialFavoriteButton.OnFavoriteChangeListener() {
             @Override
@@ -88,10 +96,13 @@ public class DetailActivity extends AppCompatActivity {
                     SharedPreferences.Editor editor =  getSharedPreferences("com.example.android.moviesapi.DetailActivity",MODE_PRIVATE).edit();
                     editor.putBoolean("Favourite Added",true);
                     editor.commit();
-                   // saveFavourite();
+                    saveFavourite();
                     Snackbar.make(buttonView,"Added to Favourite",Snackbar.LENGTH_SHORT).show();
                 }
                 else{
+                    int movie_id = getIntent().getExtras().getInt("id");
+                    favoriteDbHelper = new FavoriteDbHelper(DetailActivity.this);
+                    favoriteDbHelper.deleteFavourite(movie_id);
                     SharedPreferences.Editor editor =  getSharedPreferences("com.example.android.moviesapi.DetailActivity",MODE_PRIVATE).edit();
                     editor.putBoolean("Favourite Removed",true);
                     editor.commit();
@@ -172,5 +183,21 @@ public class DetailActivity extends AppCompatActivity {
             Log.d("Error", e.getMessage());
             Toast.makeText(this, e.toString(), Toast.LENGTH_LONG).show();
         }
+    }
+
+    public void saveFavourite(){
+        favoriteDbHelper = new FavoriteDbHelper(activity);
+        favorite = new Movie();
+        int movie_id = getIntent().getExtras().getInt("id");
+        String rate = getIntent().getExtras().getString("vote_average");
+        String poster = getIntent().getExtras().getString("poster_path");
+        favorite.setId(movie_id);
+        favorite.setOriginalTitle(nameOfMovie.getText().toString().trim());
+        favorite.setPosterPath(poster);
+        favorite.setVoteAverage(Double.parseDouble(rate));
+        favorite.setOverview(plotSynopsis.getText().toString().trim());
+
+        favoriteDbHelper.addFavorite(favorite);
+
     }
 }

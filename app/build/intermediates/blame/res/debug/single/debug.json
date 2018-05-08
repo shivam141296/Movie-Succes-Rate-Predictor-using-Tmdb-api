@@ -12,12 +12,12 @@
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\color_design_error.xml.flat",
-        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\61e5e9d9e4b644eaf65f87bbaf8244f8\\res\\color\\design_error.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\bc2a1f637ae67d790fa40afa8ef320a0\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\color_design_error.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\61e5e9d9e4b644eaf65f87bbaf8244f8\\res\\color\\design_error.xml"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -48,6 +48,10 @@
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ic_star_white_24dp.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\materialfavoritebutton-0.1.4.aar\\1ace715962686b0144112047e84c548e\\res\\drawable-mdpi-v4\\ic_star_white_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
@@ -62,6 +66,14 @@
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_star_border_black_24dp.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\materialfavoritebutton-0.1.4.aar\\1ace715962686b0144112047e84c548e\\res\\drawable-xxhdpi-v4\\ic_star_border_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\layout_settings_yourprediction.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\src\\main\\res\\layout\\settings_yourprediction.xml"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
@@ -88,12 +100,12 @@
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-v21\\abc_btn_colored_material.xml"
     },
     {
-        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_slide_in_bottom.xml.flat",
-        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\anim\\abc_slide_in_bottom.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_switch_thumb_material.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_slide_in_bottom.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\color_switch_thumb_material_dark.xml.flat",
@@ -116,12 +128,16 @@
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable\\abc_dialog_material_background.xml"
     },
     {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_seek_thumb.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\color-v23\\abc_tint_seek_thumb.xml"
     },
     {
-        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_ic_star_border_white_24dp.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\materialfavoritebutton-0.1.4.aar\\1ace715962686b0144112047e84c548e\\res\\drawable-xxxhdpi-v4\\ic_star_border_white_24dp.png"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
@@ -168,6 +184,10 @@
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-mdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_ic_star_white_24dp.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\materialfavoritebutton-0.1.4.aar\\1ace715962686b0144112047e84c548e\\res\\drawable-xxxhdpi-v4\\ic_star_white_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
@@ -184,12 +204,12 @@
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
     },
     {
-        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_youtube.png.flat",
-        "source": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\src\\main\\res\\drawable\\youtube.png"
-    },
-    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_youtube.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\src\\main\\res\\drawable\\youtube.png"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
@@ -224,12 +244,12 @@
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
-        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-mdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
@@ -252,12 +272,12 @@
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-xxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_search_api_material.xml.flat",
-        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable\\abc_ic_search_api_material.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_btn_checkable.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\color-v23\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_search_api_material.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
@@ -268,20 +288,20 @@
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_bottom_sheet_dialog.xml.flat",
-        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\61e5e9d9e4b644eaf65f87bbaf8244f8\\res\\layout\\design_bottom_sheet_dialog.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
-        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_bottom_sheet_dialog.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\61e5e9d9e4b644eaf65f87bbaf8244f8\\res\\layout\\design_bottom_sheet_dialog.xml"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_pressed_holo_light.9.png.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
@@ -298,6 +318,10 @@
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_black_36dp.png.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_ic_favorite_border_white_24dp.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\materialfavoritebutton-0.1.4.aar\\1ace715962686b0144112047e84c548e\\res\\drawable-xxxhdpi-v4\\ic_favorite_border_white_24dp.png"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
@@ -360,12 +384,12 @@
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\61e5e9d9e4b644eaf65f87bbaf8244f8\\res\\drawable-v21\\avd_hide_password.xml"
     },
     {
-        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_disable_only_material_dark.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
@@ -374,6 +398,10 @@
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_material_light.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_favorite_border_white_24dp.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\materialfavoritebutton-0.1.4.aar\\1ace715962686b0144112047e84c548e\\res\\drawable-xhdpi-v4\\ic_favorite_border_white_24dp.png"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_custom.xml.flat",
@@ -436,12 +464,12 @@
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\61e5e9d9e4b644eaf65f87bbaf8244f8\\res\\drawable\\design_snackbar_background.xml"
     },
     {
-        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_design_ic_visibility.png.flat",
-        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\61e5e9d9e4b644eaf65f87bbaf8244f8\\res\\drawable-hdpi-v4\\design_ic_visibility.png"
-    },
-    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_main.xml.flat",
         "source": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_design_ic_visibility.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\61e5e9d9e4b644eaf65f87bbaf8244f8\\res\\drawable-hdpi-v4\\design_ic_visibility.png"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
@@ -484,20 +512,20 @@
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
-        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-xxhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\layout-v26_abc_screen_toolbar.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\layout-v26\\abc_screen_toolbar.xml"
     },
     {
-        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\bc2a1f637ae67d790fa40afa8ef320a0\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-xxhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-ldrtl-xhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\bc2a1f637ae67d790fa40afa8ef320a0\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
@@ -524,6 +552,10 @@
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
     },
     {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ic_star_black_24dp.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\materialfavoritebutton-0.1.4.aar\\1ace715962686b0144112047e84c548e\\res\\drawable-hdpi-v4\\ic_star_black_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-xxxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
@@ -534,6 +566,10 @@
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_icon_background.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\bc2a1f637ae67d790fa40afa8ef320a0\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_star_black_24dp.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\materialfavoritebutton-0.1.4.aar\\1ace715962686b0144112047e84c548e\\res\\drawable-xhdpi-v4\\ic_star_black_24dp.png"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -616,6 +652,10 @@
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-xxhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_star_border_white_24dp.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\materialfavoritebutton-0.1.4.aar\\1ace715962686b0144112047e84c548e\\res\\drawable-xhdpi-v4\\ic_star_border_white_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
@@ -684,6 +724,14 @@
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png"
     },
     {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_favorite_border_black_24dp.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\materialfavoritebutton-0.1.4.aar\\1ace715962686b0144112047e84c548e\\res\\drawable-xxhdpi-v4\\ic_favorite_border_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ic_star_border_black_24dp.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\materialfavoritebutton-0.1.4.aar\\1ace715962686b0144112047e84c548e\\res\\drawable-hdpi-v4\\ic_star_border_black_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_focused_holo.9.png.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png"
     },
@@ -700,6 +748,10 @@
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\ced5e1ff3307b89dec12f2dcecb5ba7f\\res\\layout\\notification_template_big_media_narrow.xml"
     },
     {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_star_black_24dp.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\materialfavoritebutton-0.1.4.aar\\1ace715962686b0144112047e84c548e\\res\\drawable-xxhdpi-v4\\ic_star_black_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_detail.xml.flat",
         "source": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\src\\main\\res\\layout\\content_detail.xml"
     },
@@ -714,6 +766,10 @@
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ic_favorite_border_white_24dp.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\materialfavoritebutton-0.1.4.aar\\1ace715962686b0144112047e84c548e\\res\\drawable-mdpi-v4\\ic_favorite_border_white_24dp.png"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_item_separator.xml.flat",
@@ -812,12 +868,20 @@
         "source": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\src\\main\\res\\layout\\trailer_card.xml"
     },
     {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_favorite_white_24dp.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\materialfavoritebutton-0.1.4.aar\\1ace715962686b0144112047e84c548e\\res\\drawable-xhdpi-v4\\ic_favorite_white_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-ldrtl-xxxhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\color-v11_abc_background_cache_hint_selector_material_light.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ic_favorite_white_24dp.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\materialfavoritebutton-0.1.4.aar\\1ace715962686b0144112047e84c548e\\res\\drawable-mdpi-v4\\ic_favorite_white_24dp.png"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21_design_bottom_sheet_slide_in.xml.flat",
@@ -900,6 +964,14 @@
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ic_favorite_white_24dp.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\materialfavoritebutton-0.1.4.aar\\1ace715962686b0144112047e84c548e\\res\\drawable-hdpi-v4\\ic_favorite_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_ic_favorite_border_black_24dp.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\materialfavoritebutton-0.1.4.aar\\1ace715962686b0144112047e84c548e\\res\\drawable-xxxhdpi-v4\\ic_favorite_border_black_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-ldrtl-xxhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
     },
@@ -910,6 +982,10 @@
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_menu_item_action_area.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\61e5e9d9e4b644eaf65f87bbaf8244f8\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_ic_favorite_black_24dp.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\materialfavoritebutton-0.1.4.aar\\1ace715962686b0144112047e84c548e\\res\\drawable-xxxhdpi-v4\\ic_favorite_black_24dp.png"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
@@ -960,8 +1036,20 @@
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\bc2a1f637ae67d790fa40afa8ef320a0\\res\\drawable-v21\\notification_action_background.xml"
     },
     {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_calendar.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\src\\main\\res\\drawable\\ic_calendar.png"
+    },
+    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_star_white_24dp.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\materialfavoritebutton-0.1.4.aar\\1ace715962686b0144112047e84c548e\\res\\drawable-xxhdpi-v4\\ic_star_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ic_favorite_black_24dp.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\materialfavoritebutton-0.1.4.aar\\1ace715962686b0144112047e84c548e\\res\\drawable-hdpi-v4\\ic_favorite_black_24dp.png"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_fade_out.xml.flat",
@@ -992,8 +1080,16 @@
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_ic_star_black_24dp.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\materialfavoritebutton-0.1.4.aar\\1ace715962686b0144112047e84c548e\\res\\drawable-xxxhdpi-v4\\ic_star_black_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_bar_view_list_nav_layout.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_favorite_border_black_24dp.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\materialfavoritebutton-0.1.4.aar\\1ace715962686b0144112047e84c548e\\res\\drawable-xhdpi-v4\\ic_favorite_border_black_24dp.png"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_media_action.xml.flat",
@@ -1128,6 +1224,18 @@
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-mdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ic_star_border_black_24dp.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\materialfavoritebutton-0.1.4.aar\\1ace715962686b0144112047e84c548e\\res\\drawable-mdpi-v4\\ic_star_border_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ic_star_black_24dp.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\materialfavoritebutton-0.1.4.aar\\1ace715962686b0144112047e84c548e\\res\\drawable-mdpi-v4\\ic_star_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_rating.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\src\\main\\res\\drawable\\ic_rating.png"
+    },
+    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
@@ -1164,6 +1272,14 @@
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_favorite_white_24dp.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\materialfavoritebutton-0.1.4.aar\\1ace715962686b0144112047e84c548e\\res\\drawable-xxhdpi-v4\\ic_favorite_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_star_white_24dp.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\materialfavoritebutton-0.1.4.aar\\1ace715962686b0144112047e84c548e\\res\\drawable-xhdpi-v4\\ic_star_white_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_ab_back_material.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable\\abc_ic_ab_back_material.xml"
     },
@@ -1174,6 +1290,10 @@
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\bc2a1f637ae67d790fa40afa8ef320a0\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ic_favorite_border_white_24dp.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\materialfavoritebutton-0.1.4.aar\\1ace715962686b0144112047e84c548e\\res\\drawable-hdpi-v4\\ic_favorite_border_white_24dp.png"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_focused_holo.9.png.flat",
@@ -1198,6 +1318,10 @@
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-xxhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ic_favorite_black_24dp.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\materialfavoritebutton-0.1.4.aar\\1ace715962686b0144112047e84c548e\\res\\drawable-mdpi-v4\\ic_favorite_black_24dp.png"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16_notification_template_custom_big.xml.flat",
@@ -1254,6 +1378,10 @@
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_slide_in_top.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_favorite_border_white_24dp.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\materialfavoritebutton-0.1.4.aar\\1ace715962686b0144112047e84c548e\\res\\drawable-xxhdpi-v4\\ic_favorite_border_white_24dp.png"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
@@ -1440,6 +1568,10 @@
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\bc2a1f637ae67d790fa40afa8ef320a0\\res\\layout\\notification_template_custom_big.xml"
     },
     {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ic_favorite_border_black_24dp.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\materialfavoritebutton-0.1.4.aar\\1ace715962686b0144112047e84c548e\\res\\drawable-hdpi-v4\\ic_favorite_border_black_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
@@ -1500,6 +1632,14 @@
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\61e5e9d9e4b644eaf65f87bbaf8244f8\\res\\layout\\design_navigation_menu.xml"
     },
     {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ic_favorite_border_black_24dp.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\materialfavoritebutton-0.1.4.aar\\1ace715962686b0144112047e84c548e\\res\\drawable-mdpi-v4\\ic_favorite_border_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_favorite_black_24dp.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\materialfavoritebutton-0.1.4.aar\\1ace715962686b0144112047e84c548e\\res\\drawable-xxhdpi-v4\\ic_favorite_black_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
     },
@@ -1546,6 +1686,10 @@
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_black_36dp.png.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_favorite_black_24dp.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\materialfavoritebutton-0.1.4.aar\\1ace715962686b0144112047e84c548e\\res\\drawable-xhdpi-v4\\ic_favorite_black_24dp.png"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_bar_title_item.xml.flat",
@@ -1636,8 +1780,16 @@
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\bc2a1f637ae67d790fa40afa8ef320a0\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
     },
     {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ic_star_white_24dp.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\materialfavoritebutton-0.1.4.aar\\1ace715962686b0144112047e84c548e\\res\\drawable-hdpi-v4\\ic_star_white_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\bc2a1f637ae67d790fa40afa8ef320a0\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_star_border_white_24dp.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\materialfavoritebutton-0.1.4.aar\\1ace715962686b0144112047e84c548e\\res\\drawable-xxhdpi-v4\\ic_star_border_white_24dp.png"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
@@ -1708,6 +1860,10 @@
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
     },
     {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_ic_favorite_white_24dp.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\materialfavoritebutton-0.1.4.aar\\1ace715962686b0144112047e84c548e\\res\\drawable-xxxhdpi-v4\\ic_favorite_white_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
@@ -1736,8 +1892,16 @@
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
     },
     {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_ic_star_border_black_24dp.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\materialfavoritebutton-0.1.4.aar\\1ace715962686b0144112047e84c548e\\res\\drawable-xxxhdpi-v4\\ic_star_border_black_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_secondary_text_material_light.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_star_border_black_24dp.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\materialfavoritebutton-0.1.4.aar\\1ace715962686b0144112047e84c548e\\res\\drawable-xhdpi-v4\\ic_star_border_black_24dp.png"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
@@ -1752,6 +1916,10 @@
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-ldrtl-hdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ic_star_border_white_24dp.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\materialfavoritebutton-0.1.4.aar\\1ace715962686b0144112047e84c548e\\res\\drawable-hdpi-v4\\ic_star_border_white_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
@@ -1762,6 +1930,10 @@
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\ced5e1ff3307b89dec12f2dcecb5ba7f\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ic_star_border_white_24dp.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\materialfavoritebutton-0.1.4.aar\\1ace715962686b0144112047e84c548e\\res\\drawable-mdpi-v4\\ic_star_border_white_24dp.png"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",

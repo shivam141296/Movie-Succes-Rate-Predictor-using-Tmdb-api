@@ -7,6 +7,7 @@ import android.content.ContextWrapper;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.v4.widget.SwipeRefreshLayout;
@@ -22,6 +23,7 @@ import android.widget.Toast;
 import com.example.android.moviesapi.adapter.MoviesAdapter;
 import com.example.android.moviesapi.api.Client;
 import com.example.android.moviesapi.api.Service;
+import com.example.android.moviesapi.data.FavoriteDbHelper;
 import com.example.android.moviesapi.model.Movie;
 import com.example.android.moviesapi.model.MoviesResponse;
 
@@ -39,21 +41,15 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
     ProgressDialog pd;
     private SwipeRefreshLayout swipeContainer;
     public static final String LOG_TAG=MoviesAdapter.class.getName();
+    private AppCompatActivity activity = MainActivity.this;
+    private FavoriteDbHelper favoriteDbHelper;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initViews();
-        swipeContainer = (SwipeRefreshLayout) findViewById(R.id.main_content);
-        swipeContainer.setColorSchemeResources(android.R.color.holo_orange_dark);
-        swipeContainer.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
-            @Override
-            public void onRefresh() {
-                initViews();
-                Toast.makeText(MainActivity.this, "Movies Refreshed", Toast.LENGTH_SHORT).show();
-            }
-        });
+
     }
     public Activity getActivity(){
         Context context = this;
@@ -66,10 +62,7 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
         return null;
     }
     private void initViews(){
-        pd = new ProgressDialog(this);
-        pd.setMessage("Fetching");
-        pd.setCancelable(false);
-        pd.show();
+
 
         recyclerView = findViewById(R.id.recycler_view);
         movieList = new ArrayList<>();
@@ -84,8 +77,38 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
         recyclerView.setItemAnimator(new DefaultItemAnimator());
         recyclerView.setAdapter(adapter);
         adapter.notifyDataSetChanged();
+        favoriteDbHelper = new FavoriteDbHelper(activity);
+
+        swipeContainer = (SwipeRefreshLayout) findViewById(R.id.main_content);
+        swipeContainer.setColorSchemeResources(android.R.color.holo_orange_dark);
+        swipeContainer.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                initViews();
+                Toast.makeText(MainActivity.this, "Movies Refreshed", Toast.LENGTH_SHORT).show();
+            }
+        });
 
         checkSortOrder();
+    }
+
+    public void initViews2(){
+        recyclerView = (RecyclerView)findViewById(R.id.recycler_view);
+        movieList = new ArrayList<>();
+        adapter = new MoviesAdapter((Context) this,movieList);
+
+        if(getActivity().getResources().getConfiguration().orientation == Configuration.ORIENTATION_PORTRAIT){
+            recyclerView.setLayoutManager(new GridLayoutManager(this,2));
+        }
+        else{
+            recyclerView.setLayoutManager(new GridLayoutManager(this,4));
+        }
+        recyclerView.setItemAnimator(new DefaultItemAnimator());
+        recyclerView.setAdapter(adapter);
+        adapter.notifyDataSetChanged();
+        favoriteDbHelper = new FavoriteDbHelper(activity);
+
+        getAllFavorite();
     }
     private void loadJSON()
     {
@@ -108,7 +131,10 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
                     if(swipeContainer.isRefreshing()){
                         swipeContainer.setRefreshing(false);
                     }
-                    pd.dismiss();
+
+
+
+
                 }
 
                 @Override
@@ -144,7 +170,7 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
                     if(swipeContainer.isRefreshing()){
                         swipeContainer.setRefreshing(false);
                     }
-                    pd.dismiss();
+
                 }
 
                 @Override
@@ -180,7 +206,7 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
                     if(swipeContainer.isRefreshing()){
                         swipeContainer.setRefreshing(false);
                     }
-                    pd.dismiss();
+
                 }
 
                 @Override
@@ -205,6 +231,18 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
     public boolean onOptionsItemSelected(MenuItem item){
         switch (item.getItemId()){
             case R.id.menu_settings:
+                loadJSON1();
+                return true;
+            case R.id.menu_rating:
+                loadJSON();
+                return true;
+            case R.id.menu_upcoming:
+                loadJSON2();
+                return true;
+            case R.id.menu_favorite:
+                initViews2();
+                return true;
+            case R.id.menu_yourprediction:
                 Intent intent = new Intent(this,SettingsActivity.class);
                 startActivity(intent);
                 return true;
@@ -233,6 +271,11 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
             Log.d(LOG_TAG,"Sorting by most rated");
             loadJSON1();
         }
+        else if(sortOrder.equals(this.getString(R.string.favorite))){
+
+            Log.d(LOG_TAG,"Sorting by favorite");
+            initViews2();
+        }
         else{
             Log.d(LOG_TAG,"Sorting by upcoming movies");
             loadJSON2();
@@ -248,5 +291,22 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
         else {
 
         }
+    }
+
+    private void getAllFavorite(){
+        new AsyncTask<Void, Void, Void>() {
+            @Override
+            protected Void doInBackground(Void... voids) {
+                movieList.clear();
+                movieList.addAll(favoriteDbHelper.getAllFavorite());
+                return null;
+            }
+            @Override
+            protected void onPostExecute(Void aVoid){
+                super.onPostExecute(aVoid);
+                adapter.notifyDataSetChanged();
+            }
+        }.execute();
+
     }
 }

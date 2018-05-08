@@ -31,10 +31,10 @@ public final class R {
         public static final int ic_star_white_24dp = 0x7f08006d;
     }
     public static final class id {
-        public static final int black = 0x7f090024;
-        public static final int heart = 0x7f090053;
-        public static final int star = 0x7f0900ad;
-        public static final int white = 0x7f0900d1;
+        public static final int black = 0x7f090027;
+        public static final int heart = 0x7f090059;
+        public static final int star = 0x7f0900b4;
+        public static final int white = 0x7f0900d8;
     }
     public static final class string {
         public static final int app_name = 0x7f0e0020;

@@ -34,6 +34,8 @@ dependencies {
     compile 'com.squareup.retrofit2:converter-gson:2.1.0'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'com.github.ivbaranov:materialfavoritebutton:0.1.4'
+    compile 'com.jakewharton:butterknife:6.1.0'
+    annotationProcessor 'com.jakewharton:butterknife:6.1.0'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
 }

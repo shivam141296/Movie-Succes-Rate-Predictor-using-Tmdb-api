@@ -5,24 +5,31 @@
     build-mode="COLD"
     density="xxhdpi"
     format="10"
+    ir-eligibility="CLASS_ADDED"
     plugin-version="3.0.0"
-    timestamp="1525790074380"
+    timestamp="1525795907959"
     token="2464032223168413337"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="11170" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="487" />
     <task
         name="verifier"
-        duration="0" />
+        duration="52" />
 
+    <artifact
+        location="C:\Users\user\AndroidStudioProjects\moviesapi\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\user\AndroidStudioProjects\moviesapi\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
     <artifact
         location="C:\Users\user\AndroidStudioProjects\moviesapi\app\build\outputs\apk\debug\app-debug.apk"
         type="SPLIT_MAIN" />
@@ -71,7 +78,7 @@
     <build
         build-mode="COLD"
         ir-eligibility="R_CLASS_CHANGE"
-        timestamp="1525789956666"
+        timestamp="1525792105963"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\user\AndroidStudioProjects\moviesapi\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
@@ -91,14 +98,18 @@
         <artifact
             location="C:\Users\user\AndroidStudioProjects\moviesapi\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
-        <artifact
-            location="C:\Users\user\AndroidStudioProjects\moviesapi\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1525790074380"
+        ir-eligibility="CLASS_ADDED"
+        timestamp="1525795907959"
         verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\user\AndroidStudioProjects\moviesapi\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\user\AndroidStudioProjects\moviesapi\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
         <artifact
             location="C:\Users\user\AndroidStudioProjects\moviesapi\app\build\outputs\apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />

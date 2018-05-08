@@ -31,6 +31,7 @@ public class FavoriteDbHelper extends SQLiteOpenHelper {
         dbhandler.close();
     }
 
+
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
         final String SQL_CREATE_FAVOURITE_TABLE="CREATE TABLE" + FavoriteContract.FavoriteEntry.TABLE_NAME + "(" +

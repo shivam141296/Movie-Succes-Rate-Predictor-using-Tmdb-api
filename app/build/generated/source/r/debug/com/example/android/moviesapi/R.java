@@ -2092,7 +2092,7 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td></td></tr>
+     * <tr><td>direct</td><td>1</td><td>for now only direct & barriers</td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>3</td><td></td></tr>
      * </table>
@@ -3911,92 +3911,93 @@ public final class R {
     public static final int percent=0x7f090083;
     public static final int pin=0x7f090084;
     public static final int plotsynopsis=0x7f090085;
-    public static final int progress_circular=0x7f090086;
-    public static final int progress_horizontal=0x7f090087;
-    public static final int radio=0x7f090088;
-    public static final int recycler_view=0x7f090089;
-    public static final int recycler_view1=0x7f09008a;
-    public static final int releasedate=0x7f09008b;
-    public static final int right=0x7f09008c;
-    public static final int right_icon=0x7f09008d;
-    public static final int right_side=0x7f09008e;
-    public static final int runtime=0x7f09008f;
-    public static final int save_image_matrix=0x7f090090;
-    public static final int save_non_transition_alpha=0x7f090091;
-    public static final int save_scale_type=0x7f090092;
-    public static final int screen=0x7f090093;
-    public static final int scroll=0x7f090094;
-    public static final int scrollIndicatorDown=0x7f090095;
-    public static final int scrollIndicatorUp=0x7f090096;
-    public static final int scrollView=0x7f090097;
-    public static final int scrollable=0x7f090098;
-    public static final int search_badge=0x7f090099;
-    public static final int search_bar=0x7f09009a;
-    public static final int search_button=0x7f09009b;
-    public static final int search_close_btn=0x7f09009c;
-    public static final int search_edit_frame=0x7f09009d;
-    public static final int search_go_btn=0x7f09009e;
-    public static final int search_mag_icon=0x7f09009f;
-    public static final int search_plate=0x7f0900a0;
-    public static final int search_src_text=0x7f0900a1;
-    public static final int search_voice_btn=0x7f0900a2;
-    public static final int select_dialog_listview=0x7f0900a3;
-    public static final int shortcut=0x7f0900a4;
-    public static final int showCustom=0x7f0900a5;
-    public static final int showHome=0x7f0900a6;
-    public static final int showTitle=0x7f0900a7;
-    public static final int smallLabel=0x7f0900a8;
-    public static final int snackbar_action=0x7f0900a9;
-    public static final int snackbar_text=0x7f0900aa;
-    public static final int snap=0x7f0900ab;
-    public static final int spacer=0x7f0900ac;
-    public static final int split_action_bar=0x7f0900ad;
-    public static final int spread=0x7f0900ae;
-    public static final int spread_inside=0x7f0900af;
-    public static final int src_atop=0x7f0900b0;
-    public static final int src_in=0x7f0900b1;
-    public static final int src_over=0x7f0900b2;
-    public static final int standard=0x7f0900b3;
-    public static final int star=0x7f0900b4;
-    public static final int start=0x7f0900b5;
-    public static final int status_bar_latest_event_content=0x7f0900b6;
-    public static final int submenuarrow=0x7f0900b7;
-    public static final int submit_area=0x7f0900b8;
-    public static final int tabMode=0x7f0900b9;
-    public static final int text=0x7f0900ba;
-    public static final int text2=0x7f0900bb;
-    public static final int textSpacerNoButtons=0x7f0900bc;
-    public static final int textSpacerNoTitle=0x7f0900bd;
-    public static final int text_input_password_toggle=0x7f0900be;
-    public static final int textinput_counter=0x7f0900bf;
-    public static final int textinput_error=0x7f0900c0;
-    public static final int thumbnail=0x7f0900c1;
-    public static final int thumbnailUrl=0x7f0900c2;
-    public static final int thumbnail_image_header=0x7f0900c3;
-    public static final int time=0x7f0900c4;
-    public static final int title=0x7f0900c5;
-    public static final int titleDividerNoCustom=0x7f0900c6;
-    public static final int title_template=0x7f0900c7;
-    public static final int toolbar=0x7f0900c8;
-    public static final int top=0x7f0900c9;
-    public static final int topPanel=0x7f0900ca;
-    public static final int touch_outside=0x7f0900cb;
-    public static final int trailer=0x7f0900cc;
-    public static final int transition_current_scene=0x7f0900cd;
-    public static final int transition_layout_save=0x7f0900ce;
-    public static final int transition_position=0x7f0900cf;
-    public static final int transition_scene_layoutid_cache=0x7f0900d0;
-    public static final int transition_transform=0x7f0900d1;
-    public static final int uniform=0x7f0900d2;
-    public static final int up=0x7f0900d3;
-    public static final int useLogo=0x7f0900d4;
-    public static final int userrating=0x7f0900d5;
-    public static final int view_offset_helper=0x7f0900d6;
-    public static final int visible=0x7f0900d7;
-    public static final int white=0x7f0900d8;
-    public static final int withText=0x7f0900d9;
-    public static final int wrap=0x7f0900da;
-    public static final int wrap_content=0x7f0900db;
+    public static final int predict=0x7f090086;
+    public static final int progress_circular=0x7f090087;
+    public static final int progress_horizontal=0x7f090088;
+    public static final int radio=0x7f090089;
+    public static final int recycler_view=0x7f09008a;
+    public static final int recycler_view1=0x7f09008b;
+    public static final int releasedate=0x7f09008c;
+    public static final int right=0x7f09008d;
+    public static final int right_icon=0x7f09008e;
+    public static final int right_side=0x7f09008f;
+    public static final int runtime=0x7f090090;
+    public static final int save_image_matrix=0x7f090091;
+    public static final int save_non_transition_alpha=0x7f090092;
+    public static final int save_scale_type=0x7f090093;
+    public static final int screen=0x7f090094;
+    public static final int scroll=0x7f090095;
+    public static final int scrollIndicatorDown=0x7f090096;
+    public static final int scrollIndicatorUp=0x7f090097;
+    public static final int scrollView=0x7f090098;
+    public static final int scrollable=0x7f090099;
+    public static final int search_badge=0x7f09009a;
+    public static final int search_bar=0x7f09009b;
+    public static final int search_button=0x7f09009c;
+    public static final int search_close_btn=0x7f09009d;
+    public static final int search_edit_frame=0x7f09009e;
+    public static final int search_go_btn=0x7f09009f;
+    public static final int search_mag_icon=0x7f0900a0;
+    public static final int search_plate=0x7f0900a1;
+    public static final int search_src_text=0x7f0900a2;
+    public static final int search_voice_btn=0x7f0900a3;
+    public static final int select_dialog_listview=0x7f0900a4;
+    public static final int shortcut=0x7f0900a5;
+    public static final int showCustom=0x7f0900a6;
+    public static final int showHome=0x7f0900a7;
+    public static final int showTitle=0x7f0900a8;
+    public static final int smallLabel=0x7f0900a9;
+    public static final int snackbar_action=0x7f0900aa;
+    public static final int snackbar_text=0x7f0900ab;
+    public static final int snap=0x7f0900ac;
+    public static final int spacer=0x7f0900ad;
+    public static final int split_action_bar=0x7f0900ae;
+    public static final int spread=0x7f0900af;
+    public static final int spread_inside=0x7f0900b0;
+    public static final int src_atop=0x7f0900b1;
+    public static final int src_in=0x7f0900b2;
+    public static final int src_over=0x7f0900b3;
+    public static final int standard=0x7f0900b4;
+    public static final int star=0x7f0900b5;
+    public static final int start=0x7f0900b6;
+    public static final int status_bar_latest_event_content=0x7f0900b7;
+    public static final int submenuarrow=0x7f0900b8;
+    public static final int submit_area=0x7f0900b9;
+    public static final int tabMode=0x7f0900ba;
+    public static final int text=0x7f0900bb;
+    public static final int text2=0x7f0900bc;
+    public static final int textSpacerNoButtons=0x7f0900bd;
+    public static final int textSpacerNoTitle=0x7f0900be;
+    public static final int text_input_password_toggle=0x7f0900bf;
+    public static final int textinput_counter=0x7f0900c0;
+    public static final int textinput_error=0x7f0900c1;
+    public static final int thumbnail=0x7f0900c2;
+    public static final int thumbnailUrl=0x7f0900c3;
+    public static final int thumbnail_image_header=0x7f0900c4;
+    public static final int time=0x7f0900c5;
+    public static final int title=0x7f0900c6;
+    public static final int titleDividerNoCustom=0x7f0900c7;
+    public static final int title_template=0x7f0900c8;
+    public static final int toolbar=0x7f0900c9;
+    public static final int top=0x7f0900ca;
+    public static final int topPanel=0x7f0900cb;
+    public static final int touch_outside=0x7f0900cc;
+    public static final int trailer=0x7f0900cd;
+    public static final int transition_current_scene=0x7f0900ce;
+    public static final int transition_layout_save=0x7f0900cf;
+    public static final int transition_position=0x7f0900d0;
+    public static final int transition_scene_layoutid_cache=0x7f0900d1;
+    public static final int transition_transform=0x7f0900d2;
+    public static final int uniform=0x7f0900d3;
+    public static final int up=0x7f0900d4;
+    public static final int useLogo=0x7f0900d5;
+    public static final int userrating=0x7f0900d6;
+    public static final int view_offset_helper=0x7f0900d7;
+    public static final int visible=0x7f0900d8;
+    public static final int white=0x7f0900d9;
+    public static final int withText=0x7f0900da;
+    public static final int wrap=0x7f0900db;
+    public static final int wrap_content=0x7f0900dc;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f0a0000;
@@ -9441,7 +9442,7 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td></td></tr>
+     * <tr><td>direct</td><td>1</td><td>for now only direct & barriers</td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>3</td><td></td></tr>
      * </table>

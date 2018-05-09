@@ -1,4 +1,4 @@
-#Tue May 08 20:39:04 IST 2018
-base.0=C\:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\8
+#Wed May 09 16:53:07 IST 2018
+base.0=C\:\\Users\\user\\AndroidStudioProjects\\MoviesSuccessRatePredictor\\Moviesapi\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\8
 renamed.0=classes.dex
-file.0=C\:\\Users\\user\\AndroidStudioProjects\\moviesapi\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\8\\classes.dex
+file.0=C\:\\Users\\user\\AndroidStudioProjects\\MoviesSuccessRatePredictor\\Moviesapi\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\8\\classes.dex

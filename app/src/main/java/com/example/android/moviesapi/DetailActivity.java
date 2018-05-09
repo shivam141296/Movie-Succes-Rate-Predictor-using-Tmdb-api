@@ -12,6 +12,8 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -55,8 +57,15 @@ public class DetailActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
         initCollapsingToolbar();
+        Button prediction = (Button)findViewById(R.id.predict);
+        prediction.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent in = new Intent(DetailActivity.this,SettingsActivity.class);
+                startActivity(in);
+            }
+        });
 
         imageView = (ImageView) findViewById(R.id.thumbnail_image_header);
         nameOfMovie = (TextView) findViewById(R.id.title);

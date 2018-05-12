@@ -55,18 +55,20 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.MyViewHold
     }
 
     public class MyViewHolder extends RecyclerView.ViewHolder{
-        public TextView title,userrating;
+        public TextView title,userrating,Budget;
         public ImageView thumbnail;
         public MyViewHolder(View itemView) {
             super(itemView);
             title = (TextView)itemView.findViewById(R.id.title);
             userrating = (TextView)itemView.findViewById(R.id.userrating);
             thumbnail = (ImageView)itemView.findViewById(R.id.thumbnail);
+            Budget =(TextView) itemView.findViewById(R.id.budget);
 
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
                     int pos = getAdapterPosition();
+                    //long b = movieList.get(pos).getBudget();
                     if(pos!=RecyclerView.NO_POSITION){
                         Movie clickedDataItem=movieList.get(pos);
                         Intent intent = new Intent(mContext,DetailActivity.class);
@@ -76,6 +78,7 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.MyViewHold
                         intent.putExtra("vote_average",Double.toString(movieList.get(pos).getVoteAverage()));
                         intent.putExtra("release_date",movieList.get(pos).getReleaseDate());
                         intent.putExtra("id",movieList.get(pos).getId());
+                        intent.putExtra("budget",movieList.get(pos).getBudget());
                         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                         mContext.startActivity(intent);
                         Toast.makeText(view.getContext(),"You clicked"+clickedDataItem.getOriginalTitle(),Toast.LENGTH_SHORT);

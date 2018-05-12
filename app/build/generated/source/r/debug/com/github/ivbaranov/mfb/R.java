@@ -33,11 +33,11 @@ public final class R {
     public static final class id {
         public static final int black = 0x7f090027;
         public static final int heart = 0x7f090059;
-        public static final int star = 0x7f0900b5;
-        public static final int white = 0x7f0900d9;
+        public static final int star = 0x7f0900c2;
+        public static final int white = 0x7f0900e7;
     }
     public static final class string {
-        public static final int app_name = 0x7f0e0020;
+        public static final int app_name = 0x7f0e0040;
     }
     public static final class styleable {
         public static final int[] MaterialFavoriteButton = { 0x7f040113, 0x7f040114, 0x7f040115, 0x7f040116, 0x7f040117, 0x7f040118, 0x7f040119, 0x7f04011a, 0x7f04011b, 0x7f04011c, 0x7f04011d };

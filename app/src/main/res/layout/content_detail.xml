@@ -25,6 +25,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/title"
+                android:textColor="@color/colorPrimary"
                 android:layout_marginLeft="@dimen/layout_margin_left"
                 android:padding="@dimen/padding_layout"
                 android:layout_marginTop="@dimen/layout_margin_top"
@@ -40,6 +41,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/userrating"
+                android:drawableLeft="@drawable/ic_rating"
+                android:drawablePadding="28.40dp"
+                android:minHeight="47.20dp"
                 android:layout_marginLeft="@dimen/layout_margin_left"
                 android:padding="@dimen/padding_layout"
                 android:layout_marginTop="@dimen/layout_margin_top"
@@ -54,6 +58,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/releasedate"
+                android:drawableLeft="@drawable/ic_calendar"
+                android:drawablePadding="28.40dp"
+                android:minHeight="47.20dp"
                 android:layout_marginLeft="@dimen/layout_margin_left"
                 android:padding="@dimen/padding_layout"
                 android:layout_marginTop="@dimen/layout_margin_top"
@@ -66,12 +73,39 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/plotsynopsis"
+                android:id="@+id/plotsynopsish"
                 android:layout_marginLeft="@dimen/layout_margin_left"
                 android:padding="@dimen/padding_layout"
                 android:layout_marginTop="@dimen/layout_margin_top"
                 android:textSize="20sp"
+                android:text="Plot Summary"
+                android:textColor="@color/colorPrimary"
                 app:layout_constraintTop_toBottomOf="@+id/releasedate"
+                app:layout_constraintLeft_toLeftOf="parent"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/plotsynopsis"
+                android:layout_marginLeft="@dimen/layout_margin_left"
+                android:padding="@dimen/padding_layout"
+                android:layout_marginTop="@dimen/layout_margin_top"
+                android:textSize="14sp"
+                app:layout_constraintTop_toBottomOf="@+id/plotsynopsish"
+                app:layout_constraintLeft_toLeftOf="parent"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/budget"
+                android:layout_marginLeft="@dimen/layout_margin_left"
+                android:padding="@dimen/padding_layout"
+                android:layout_marginTop="@dimen/layout_margin_top"
+                android:textSize="20sp"
+                app:layout_constraintTop_toBottomOf="@+id/plotsynopsis"
                 app:layout_constraintLeft_toLeftOf="parent"
                 />
 
@@ -88,12 +122,14 @@
                 app:layout_constraintTop_toBottomOf="@+id/plotsynopsis"
                 android:layout_marginLeft="100dp"
                 android:paddingTop="10dp"
-                android:text="Predict its success"/>
+                android:background="@color/cardview_light_background"
+                android:text="Sentimental Analysis"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/trailer"
+                android:textColor="@color/colorPrimary"
                 android:textSize="30sp"
                 android:text="@string/trailer"
                 app:layout_constraintTop_toBottomOf="@+id/predict"

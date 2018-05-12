@@ -38,8 +38,10 @@ public class Movie {
     private boolean video;
     @SerializedName("vote_average")
     public  double voteAverage;
+    @SerializedName("budget")
+    private String budget;
 
-    public Movie(String posterPath,boolean adult,String overview,String releaseDate,List<Integer>genreIds,Integer id,String originalTitle,String originalLangauge,String title,String backdropPath,Double popularity,Integer voteCount,Boolean video,Double voteAverage){
+    public Movie(String posterPath,boolean adult,String overview,String releaseDate,List<Integer>genreIds,Integer id,String originalTitle,String originalLangauge,String title,String backdropPath,Double popularity,Integer voteCount,Boolean video,Double voteAverage,String budget){
         this.posterPath = posterPath;
         this.adult = adult;
         this.overview = overview;
@@ -54,7 +56,7 @@ public class Movie {
         this.voteCount = voteCount;
         this.video = video;
         this.voteAverage=voteAverage;
-
+        this.budget = budget;
     }
     public Movie(){
 
@@ -173,4 +175,10 @@ public class Movie {
         this.voteAverage = voteAverage;
     }
 
+    public void setBudget(String budget){
+        this.budget = budget;
+    }
+    public String getBudget(){
+        return budget;
+    }
 }

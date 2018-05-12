@@ -40,7 +40,7 @@ import retrofit2.Response;
  */
 
 public class DetailActivity extends AppCompatActivity {
-    TextView nameOfMovie, plotSynopsis, userRating, releaseDate;
+    TextView nameOfMovie, plotSynopsis, userRating, releaseDate, Budget;
     ImageView imageView;
     private RecyclerView recyclerView;
     private TrailerAdapter adapter;
@@ -58,29 +58,33 @@ public class DetailActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         initCollapsingToolbar();
-        Button prediction = (Button)findViewById(R.id.predict);
-        prediction.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent in = new Intent(DetailActivity.this,SettingsActivity.class);
-                startActivity(in);
-            }
-        });
+
 
         imageView = (ImageView) findViewById(R.id.thumbnail_image_header);
         nameOfMovie = (TextView) findViewById(R.id.title);
         plotSynopsis = (TextView) findViewById(R.id.plotsynopsis);
         userRating = (TextView) findViewById(R.id.userrating);
         releaseDate = (TextView) findViewById(R.id.releasedate);
+        Budget = (TextView)findViewById(R.id.budget);
 
         Intent intentThatStartedThisActivity = getIntent();
+        final String m = getIntent().getExtras().getString("original_title");
+        Button prediction = (Button)findViewById(R.id.predict);
+        prediction.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent in = new Intent(DetailActivity.this,sentimental_analysis.class);
+                in.putExtra("original_title",m);
+                startActivity(in);
+            }
+        });
         if (intentThatStartedThisActivity.hasExtra("original_title")) {
             String thumbnail = getIntent().getExtras().getString("poster_path");
             String movieName = getIntent().getExtras().getString("original_title");
             String synopsis = getIntent().getExtras().getString("overview");
             String rating = getIntent().getExtras().getString("vote_average");
             String dateOfRelease = getIntent().getExtras().getString("release_date");
-
+            String budget = getIntent().getExtras().getString("budget");
             String poster = "http://image.tmdb.org/t/p/w500" + thumbnail;
 
             Glide.with(this)
@@ -91,6 +95,7 @@ public class DetailActivity extends AppCompatActivity {
             plotSynopsis.setText(synopsis);
             userRating.setText(rating);
             releaseDate.setText(dateOfRelease);
+            Budget.setText(budget);
         } else {
             Toast.makeText(this, "No API Data", Toast.LENGTH_SHORT).show();
 
@@ -200,11 +205,13 @@ public class DetailActivity extends AppCompatActivity {
         int movie_id = getIntent().getExtras().getInt("id");
         String rate = getIntent().getExtras().getString("vote_average");
         String poster = getIntent().getExtras().getString("poster_path");
+        String budget = getIntent().getExtras().getString("budget");
         favorite.setId(movie_id);
         favorite.setOriginalTitle(nameOfMovie.getText().toString().trim());
         favorite.setPosterPath(poster);
         favorite.setVoteAverage(Double.parseDouble(rate));
         favorite.setOverview(plotSynopsis.getText().toString().trim());
+        favorite.setBudget(Budget.getText().toString().trim());
 
         favoriteDbHelper.addFavorite(favorite);
 

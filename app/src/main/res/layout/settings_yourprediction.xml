@@ -93,7 +93,17 @@
             android:layout_marginTop="24dp"
             android:layout_marginBottom="24dp"
             android:padding="12dp"
+            android:background="@color/cardview_light_background"
             android:text="Predict"/>
+
+        <TextView
+            android:id="@+id/server_resp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:gravity="center"
+            android:textSize="50dp"
+            android:textColor="#000000"/>
 
     </LinearLayout>
 
